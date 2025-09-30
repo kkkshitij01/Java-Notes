@@ -33,25 +33,34 @@ Profit = 100 + 27 = 127
   
 
     public static void jobSequencingProblem(int jobs[][]) {
+    
 	    // Step 1: find the Max DeadLine Day 
         int maxDayDeadLine = 0;
         for (int[] a : jobs) {
             maxDayDeadLine = Math.max(a[1], maxDayDeadLine);
         }
+        
+        
 		// Step 2: create a new Days array initialize to -1 
 		// this array will store index of job that on what day which job is being done 
         int day[] = new int[maxDayDeadLine + 1];
         Arrays.fill(day, -1);
         
+        
+        
         // Step 3: Sort the Jobs array in decreasing Order i.e job with max profit at top 
         Arrays.sort(jobs, (a, b) -> Integer.compare(b[2], a[2]));
      
         int maxProfit = 0;
+        
+        
 		// step 4 : iterating through the sorted array 
         for (int i = 0; i < jobs.length; i++) {
             int idx = jobs[i][0];
             int deadLine = jobs[i][1];
             int profit = jobs[i][2];
+            
+            
 		// step 5: starting from deadline checking if we have a day without job through another for loop 
 		// also j>0 here because we won't have a 0th day ,so we can't use that index 
             for (int j = deadLine; j > 0; j--) {
