@@ -20,7 +20,8 @@ dep[] = {9:20, 12:00, 11:30, 11:50, 19:00, 20:00}
     IDX :               to keep track of the train departures 
 - Now we start a for-loop to iterate through the sorted arrival time array. Inside the loop, we:
 - For every train in the **sorted arrival array**:
-	- - **Check departures**: While the train at `dep[idx]` has already departed (i.e., `dep[idx] < arr[i]`), it means a platform is freed:
+		
+	- **Check departures**: While the train at `dep[idx]` has already departed (i.e., `dep[idx] < arr[i]`), it means a platform is freed:
     - Decrease the **PLATFORM** count by 1 (`platform--`)
     - Move to the next departure (`idx++`)
 -  then 

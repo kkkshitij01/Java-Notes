@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e395e19e54133834",
+        "id": "b69ac08a551a2802",
         "type": "tabs",
         "children": [
           {
-            "id": "3678bac78679c7b1",
+            "id": "a7aa6227db1bdb23",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Greedy Algorithm/Minimum number of platforms required for a railway.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Minimum number of platforms required for a railway"
+              "title": "New tab"
             }
           }
         ]
@@ -78,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.50271224975586
+    "width": 267.50271224975586,
+    "collapsed": true
   },
   "right": {
     "id": "91a443b46ed0c6d9",
@@ -167,16 +164,30 @@
       "bases:Create new base": false
     }
   },
-  "active": "3678bac78679c7b1",
+  "active": "a7aa6227db1bdb23",
   "lastOpenFiles": [
-    "Greedy Algorithm/Minimum number of platforms required for a railway.md",
-    "Greedy Algorithm/N Meetings in a Room.md",
+    "DSA/Stack/Next Greater Element in Array.md",
+    "DSA/Greedy Algorithm/Fractional Knapsack Problem.md",
+    "Untitled.md",
+    "DSA/Greedy Algorithm/Minimum number of platforms required for a railway.md",
     "Untitled.canvas",
+    "DSA/Greedy Algorithm/1. Greedy Algorithm.md",
+    "DSA/Dsa Indexes.md",
+    "DSA/Stack/1. Stack Index.md",
+    "1.ROUGH/Day Work.md",
+    "DSA/1. Indexs.md",
+    "Greedy Algorithms.md",
+    "1.ROUGH/Things To Be Done.md",
+    "Programming/Greedy Algorithm/1. Greedy-Algorithm.md",
+    "DSA",
+    "DSA/Greedy Algorithm/N Meetings in a Room.md",
+    "1.ROUGH",
+    "DSA/Stack",
     "2025-10-01.md",
     "Untitled.base",
-    "Greedy Algorithm/Job Sequencing Problem.md",
+    "DSA/Greedy Algorithm/Job Sequencing Problem.md",
     "example.md",
-    "Greedy Algorithm",
+    "DSA/Greedy Algorithm",
     "2025-09-30.md",
     "Welcome.md"
   ]

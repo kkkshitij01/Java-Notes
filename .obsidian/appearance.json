@@ -1,4 +1,6 @@
 {
-  "interfaceFontFamily": "",
-  "baseFontSize": 18
+  "interfaceFontFamily": "Comic Sans MS",
+  "baseFontSize": 18,
+  "showRibbon": true,
+  "cssTheme": ""
 }

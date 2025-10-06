@@ -1,5 +1,6 @@
 {
   "readableLineLength": false,
   "strictLineBreaks": true,
-  "showLineNumber": false
+  "showLineNumber": false,
+  "defaultViewMode": "preview"
 }
