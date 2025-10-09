@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b69ac08a551a2802",
+        "id": "c467f95dd560a0d5",
         "type": "tabs",
         "children": [
           {
-            "id": "a7aa6227db1bdb23",
+            "id": "a50825fd371cd6d6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Recursion/Combination Sum II.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Combination Sum II"
             }
           }
         ]
@@ -74,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.50271224975586,
-    "collapsed": true
+    "width": 267.50271224975586
   },
   "right": {
     "id": "91a443b46ed0c6d9",
@@ -164,30 +167,38 @@
       "bases:Create new base": false
     }
   },
-  "active": "a7aa6227db1bdb23",
+  "active": "a50825fd371cd6d6",
   "lastOpenFiles": [
-    "DSA/Stack/Next Greater Element in Array.md",
-    "DSA/Greedy Algorithm/Fractional Knapsack Problem.md",
-    "Untitled.md",
-    "DSA/Greedy Algorithm/Minimum number of platforms required for a railway.md",
-    "Untitled.canvas",
-    "DSA/Greedy Algorithm/1. Greedy Algorithm.md",
+    "Recursion/1RECURSION.md",
+    "Recursion/Combination Sum II.md",
+    "Recursion/Combination Sum.md",
+    "Recursion/SUBSET II.md",
+    "Greedy Algorithm/1Greedy Algorithm.md",
+    "Stack/1Stack.md",
+    "],[1],[1,2],[1,2,2],[2],[2,2.md",
+    "Stack/Next Greater Element in Array.md",
+    "Recursion/PRINT ALL SUBSET.md",
+    "],[0.md",
+    "Recursion/SubSet Sum.md",
+    "Recursion",
     "DSA/Dsa Indexes.md",
-    "DSA/Stack/1. Stack Index.md",
+    "example.md",
+    "Greedy Algorithm/Fractional Knapsack Problem.md",
+    "Greedy Algorithm/Minimum number of platforms required for a railway.md",
+    "Untitled.canvas",
     "1.ROUGH/Day Work.md",
     "DSA/1. Indexs.md",
     "Greedy Algorithms.md",
     "1.ROUGH/Things To Be Done.md",
     "Programming/Greedy Algorithm/1. Greedy-Algorithm.md",
     "DSA",
-    "DSA/Greedy Algorithm/N Meetings in a Room.md",
+    "Greedy Algorithm/N Meetings in a Room.md",
     "1.ROUGH",
-    "DSA/Stack",
+    "Stack",
     "2025-10-01.md",
     "Untitled.base",
-    "DSA/Greedy Algorithm/Job Sequencing Problem.md",
-    "example.md",
-    "DSA/Greedy Algorithm",
+    "Greedy Algorithm/Job Sequencing Problem.md",
+    "Greedy Algorithm",
     "2025-09-30.md",
     "Welcome.md"
   ]
