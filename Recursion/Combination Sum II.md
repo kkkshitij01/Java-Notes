@@ -25,8 +25,7 @@ Each number in `candidates` may only be used **once** in the combination.
 `[5]`
 ]
 
-
-
+---
 # BruteForce Approach 
 
 • We have an input array `arr[]` and a number `target`.  
@@ -97,6 +96,8 @@ public void solve( int arr[] , int target ,  int idx, Set<List<Integer>>  set 
 ```
 
 
+
+---
 
 # Optimal Approach : same as [[SUBSET II]] Approach :
 

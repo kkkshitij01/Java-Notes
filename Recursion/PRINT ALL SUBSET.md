@@ -12,9 +12,9 @@ The solution set **must not** contain duplicate subsets. Return the solution i
 **Input:** nums =` [0]`
 **Output:** `[[],[0]]`
 
+---
 
-### SAME AS [[SubSet Sum]]
-# Approach :
+# Approach : SAME AS [[SubSet Sum]]
 
 • We have an input array `nums[]`.  
 • Create `List<List<Integer>> list` to store all subsets.  

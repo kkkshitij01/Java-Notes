@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "38637e6d7c9fb09e",
+        "id": "43b7406e7d4833a4",
         "type": "tabs",
         "children": [
           {
-            "id": "94be20644eaa07e9",
+            "id": "3abce4e13a2eabbc",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.50271224975586,
-    "collapsed": true
+    "width": 267.50271224975586
   },
   "right": {
     "id": "91a443b46ed0c6d9",
@@ -164,23 +163,27 @@
       "bases:Create new base": false
     }
   },
-  "active": "94be20644eaa07e9",
+  "active": "843735e125dcf614",
   "lastOpenFiles": [
-    "Recursion/Combination Sum II.md",
-    "Recursion/SUBSET II.md",
-    "Recursion/Combination Sum.md",
-    "Recursion/1RECURSION.md",
+    "Array",
+    "Greedy Algorithm/Fractional Knapsack Problem.md",
     "Greedy Algorithm/1Greedy Algorithm.md",
+    "Recursion/1RECURSION.md",
+    "Recursion/SUBSET II.md",
+    "Recursion/SubSet Sum.md",
+    "Recursion/PRINT ALL SUBSET.md",
+    "Recursion/Palindromic Substrings.md",
+    "Recursion/Palindrome Partitioning.md",
+    "Recursion/Combination Sum II.md",
+    "Recursion/Combination Sum.md",
+    "\"a\".md",
     "Stack/1Stack.md",
     "],[1],[1,2],[1,2,2],[2],[2,2.md",
     "Stack/Next Greater Element in Array.md",
-    "Recursion/PRINT ALL SUBSET.md",
     "],[0.md",
-    "Recursion/SubSet Sum.md",
     "Recursion",
     "DSA/Dsa Indexes.md",
     "example.md",
-    "Greedy Algorithm/Fractional Knapsack Problem.md",
     "Greedy Algorithm/Minimum number of platforms required for a railway.md",
     "Untitled.canvas",
     "1.ROUGH/Day Work.md",
@@ -194,9 +197,6 @@
     "Stack",
     "2025-10-01.md",
     "Untitled.base",
-    "Greedy Algorithm/Job Sequencing Problem.md",
-    "Greedy Algorithm",
-    "2025-09-30.md",
-    "Welcome.md"
+    "Greedy Algorithm"
   ]
 }

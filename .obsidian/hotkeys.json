@@ -4,7 +4,7 @@
       "modifiers": [
         "Mod"
       ],
-      "key": "P"
+      "key": "O"
     }
   ],
   "app:toggle-left-sidebar": [
@@ -13,6 +13,14 @@
         "Mod"
       ],
       "key": "J"
+    }
+  ],
+  "switcher:open": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "P"
     }
   ]
 }

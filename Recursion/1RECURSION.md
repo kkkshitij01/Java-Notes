@@ -3,3 +3,5 @@
 [[SUBSET II]]
 [[Combination Sum]]
 [[Combination Sum II]]
+[[Palindrome Partitioning]]
+[[Palindromic Substrings]]

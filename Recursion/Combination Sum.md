@@ -18,6 +18,7 @@ These are the only two combinations.
 **Input:** candidates = `[2,3,5]`, target = 8
 **Output:** `[[2,2,2,2],[2,3,3],[3,5]]`
 
+---
 # Approach 
 • We have an input array `candidates[]` and a number `target`.  
 • Create a list `list` to store all valid combinations.  

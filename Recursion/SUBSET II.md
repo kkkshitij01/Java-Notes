@@ -12,6 +12,8 @@ The solution set **must not** contain duplicate subsets. Return the solution i
 **Input:** nums = `[0]`
 **Output:** `[[],[0]]`
 
+---
+
 # Approach : Same AS [[Combination Sum II]] Optimal Approch
 
 • We have an input array `nums[]` that may contain duplicate elements.  
