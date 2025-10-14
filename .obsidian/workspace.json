@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b7f44dd578801f6e",
+        "id": "2066e775e20e53ec",
         "type": "tabs",
         "children": [
           {
-            "id": "a01b3b5fd9ffa667",
+            "id": "fbe3241742ac0833",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -163,16 +163,18 @@
       "bases:Create new base": false
     }
   },
-  "active": "a01b3b5fd9ffa667",
+  "active": "fbe3241742ac0833",
   "lastOpenFiles": [
-    "Recursion/Find All Palindrome Of Array.md",
     "Stack/1Stack.md",
+    "Recursion/1RECURSION.md",
+    "Array/Array.md",
+    "Array/Next Permutation.md",
+    "Recursion/Find All possible Permutations Of Array.md",
+    "Recursion/Find All Palindrome Of Array.md",
     "Stack/Next Greater Element in Array.md",
-    "Stack/Next Permutation.md",
     "Greedy Algorithm/Fractional Knapsack Problem.md",
     "Array",
     "Greedy Algorithm/1Greedy Algorithm.md",
-    "Recursion/1RECURSION.md",
     "Recursion/SUBSET II.md",
     "Recursion/SubSet Sum.md",
     "Recursion/PRINT ALL SUBSET.md",
@@ -192,9 +194,7 @@
     "DSA/1. Indexs.md",
     "Greedy Algorithms.md",
     "1.ROUGH/Things To Be Done.md",
-    "Programming/Greedy Algorithm/1. Greedy-Algorithm.md",
     "DSA",
-    "Greedy Algorithm/N Meetings in a Room.md",
     "1.ROUGH",
     "Stack",
     "Untitled.base",
