@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "43b7406e7d4833a4",
+        "id": "b7f44dd578801f6e",
         "type": "tabs",
         "children": [
           {
-            "id": "3abce4e13a2eabbc",
+            "id": "a01b3b5fd9ffa667",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -163,10 +163,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "843735e125dcf614",
+  "active": "a01b3b5fd9ffa667",
   "lastOpenFiles": [
-    "Array",
+    "Recursion/Find All Palindrome Of Array.md",
+    "Stack/1Stack.md",
+    "Stack/Next Greater Element in Array.md",
+    "Stack/Next Permutation.md",
     "Greedy Algorithm/Fractional Knapsack Problem.md",
+    "Array",
     "Greedy Algorithm/1Greedy Algorithm.md",
     "Recursion/1RECURSION.md",
     "Recursion/SUBSET II.md",
@@ -177,9 +181,7 @@
     "Recursion/Combination Sum II.md",
     "Recursion/Combination Sum.md",
     "\"a\".md",
-    "Stack/1Stack.md",
     "],[1],[1,2],[1,2,2],[2],[2,2.md",
-    "Stack/Next Greater Element in Array.md",
     "],[0.md",
     "Recursion",
     "DSA/Dsa Indexes.md",
@@ -195,7 +197,6 @@
     "Greedy Algorithm/N Meetings in a Room.md",
     "1.ROUGH",
     "Stack",
-    "2025-10-01.md",
     "Untitled.base",
     "Greedy Algorithm"
   ]
