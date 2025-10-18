@@ -5,4 +5,5 @@
 5. [[Combination Sum II]]
 6. [[Palindrome Partitioning]]
 7. [[Palindromic Substrings]]
-8. [[Find All possible Permutations Of Array]]
+8. [[46. Permutations]]
+9. [[Permutation Sequence]]

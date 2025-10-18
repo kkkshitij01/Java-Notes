@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2066e775e20e53ec",
+        "id": "7275c7376e5fcd8d",
         "type": "tabs",
         "children": [
           {
-            "id": "fbe3241742ac0833",
+            "id": "5e69669524069267",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -96,7 +96,7 @@
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
               "title": "Backlinks"
@@ -163,23 +163,25 @@
       "bases:Create new base": false
     }
   },
-  "active": "fbe3241742ac0833",
+  "active": "5e69669524069267",
   "lastOpenFiles": [
-    "Stack/1Stack.md",
+    "Recursion/Permutation Sequence.md",
     "Recursion/1RECURSION.md",
+    "Recursion/46. Permutations.md",
+    "Recursion/Palindrome Partitioning.md",
+    "Recursion/Palindromic Substrings.md",
+    "Stack/503. Next Greater Element II.md",
+    "Untitled.md",
+    "Stack/1Stack.md",
+    "Recursion/PRINT ALL SUBSET.md",
     "Array/Array.md",
     "Array/Next Permutation.md",
-    "Recursion/Find All possible Permutations Of Array.md",
     "Recursion/Find All Palindrome Of Array.md",
-    "Stack/Next Greater Element in Array.md",
     "Greedy Algorithm/Fractional Knapsack Problem.md",
     "Array",
     "Greedy Algorithm/1Greedy Algorithm.md",
     "Recursion/SUBSET II.md",
     "Recursion/SubSet Sum.md",
-    "Recursion/PRINT ALL SUBSET.md",
-    "Recursion/Palindromic Substrings.md",
-    "Recursion/Palindrome Partitioning.md",
     "Recursion/Combination Sum II.md",
     "Recursion/Combination Sum.md",
     "\"a\".md",
@@ -192,8 +194,6 @@
     "Untitled.canvas",
     "1.ROUGH/Day Work.md",
     "DSA/1. Indexs.md",
-    "Greedy Algorithms.md",
-    "1.ROUGH/Things To Be Done.md",
     "DSA",
     "1.ROUGH",
     "Stack",

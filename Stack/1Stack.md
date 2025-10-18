@@ -1,1 +1,1 @@
-[[Next Greater Element in Array]]
+[[503. Next Greater Element II]]
