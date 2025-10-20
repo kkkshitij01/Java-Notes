@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7275c7376e5fcd8d",
+        "id": "4f84bf11d73fa824",
         "type": "tabs",
         "children": [
           {
-            "id": "5e69669524069267",
+            "id": "4027cbe33ea73617",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -163,18 +163,21 @@
       "bases:Create new base": false
     }
   },
-  "active": "5e69669524069267",
+  "active": "4027cbe33ea73617",
   "lastOpenFiles": [
+    "Array/1Array.md",
+    "Array/85. Maximal Rectangle.md",
+    "Array/42. Trapping Rain Water.md",
+    "Stack/1Stack.md",
+    "Stack/84. Largest Rectangle in Histogram.md",
+    "Stack/503. Next Greater Element II.md",
     "Recursion/Permutation Sequence.md",
     "Recursion/1RECURSION.md",
     "Recursion/46. Permutations.md",
     "Recursion/Palindrome Partitioning.md",
     "Recursion/Palindromic Substrings.md",
-    "Stack/503. Next Greater Element II.md",
     "Untitled.md",
-    "Stack/1Stack.md",
     "Recursion/PRINT ALL SUBSET.md",
-    "Array/Array.md",
     "Array/Next Permutation.md",
     "Recursion/Find All Palindrome Of Array.md",
     "Greedy Algorithm/Fractional Knapsack Problem.md",
@@ -190,10 +193,7 @@
     "Recursion",
     "DSA/Dsa Indexes.md",
     "example.md",
-    "Greedy Algorithm/Minimum number of platforms required for a railway.md",
     "Untitled.canvas",
-    "1.ROUGH/Day Work.md",
-    "DSA/1. Indexs.md",
     "DSA",
     "1.ROUGH",
     "Stack",
