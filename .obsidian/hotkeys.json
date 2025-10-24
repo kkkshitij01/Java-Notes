@@ -22,5 +22,14 @@
       ],
       "key": "P"
     }
+  ],
+  "insert-current-date": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "D"
+    }
   ]
 }
