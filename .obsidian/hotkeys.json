@@ -31,5 +31,13 @@
       ],
       "key": "D"
     }
+  ],
+  "insert-current-time": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "T"
+    }
   ]
 }
