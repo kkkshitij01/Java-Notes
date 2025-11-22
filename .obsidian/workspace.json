@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "28f0f21c5ab14a1b",
+        "id": "0603be60e1dba646",
         "type": "tabs",
         "children": [
           {
-            "id": "90a8733ccf840df0",
+            "id": "61d7c61f5730de62",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -168,11 +168,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "90a8733ccf840df0",
+  "active": "61d7c61f5730de62",
   "lastOpenFiles": [
+    "Strings/5. Longest Palindromic Substring.md",
     "Strings/151. Reverse Words in a String.md",
     "Strings/14. Longest Common Prefix.md",
-    "Strings/5. Longest Palindromic Substring.md",
     "Recursion/46. Permutations.md",
     "2.LEARNINGS/JIM ROHN.md",
     "1.ROUGH/Things To Be Done.md",
