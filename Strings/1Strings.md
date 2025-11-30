@@ -1,2 +1,6 @@
-[[151. Reverse Words in a String]]
-[[5. Longest Palindromic Substring]]
+1. [[151. Reverse Words in a String]]
+2. [[5.  Longest Palindromic Substring]]
+3. [[8. String to Integer (atoi)]]
+4. [[13. Roman to Integer]]
+5. [[14. Longest Common Prefix]]
+6. [[Z-Function]]
