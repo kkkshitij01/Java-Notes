@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d38ae59ed3ef5b60",
+        "id": "8aee5603647415da",
         "type": "tabs",
         "children": [
           {
-            "id": "5a416c89ad7493fe",
+            "id": "5f6f0fabfb786b00",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "1.ROUGH/Day Log.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Day Log"
             }
           }
         ]
@@ -164,15 +168,17 @@
       "bases:Create new base": false
     }
   },
-  "active": "5a416c89ad7493fe",
+  "active": "5f6f0fabfb786b00",
   "lastOpenFiles": [
-    "Recursion & BackTracking/N-Queens.md",
     "Strings/Z-Function.md",
+    "1.ROUGH/Day Log.md",
+    "Strings/242. Valid Anagram.md",
+    "1.ROUGH/FOCUS.md",
+    "Recursion & BackTracking/N-Queens.md",
     "REVISION.md",
     "1.ROUGH/Ashtavakra Gita Sandeep Maheshwari.md",
     "1.ROUGH/21 DAYS.md",
     "1.ROUGH/Day Work DWAR.md",
-    "1.ROUGH/FOCUS.md",
     "1.ROUGH/Things To Be Done.md",
     "Strings/1Strings.md",
     "Strings/151. Reverse Words in a String.md",
@@ -191,8 +197,6 @@
     "Binary Search/Allocate Minimum Pages.md",
     "LinkedList/1.LinkedList.md",
     "LinkedList/876. Middle of the Linked List.md",
-    "Binary Search/4. Median of Two Sorted Arrays.md",
-    "Binary Search/Aggressive Cows.md",
     "REVISION",
     "Binary Search",
     "LinkedList",
