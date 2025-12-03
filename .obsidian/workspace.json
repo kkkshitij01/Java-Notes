@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8aee5603647415da",
+        "id": "f91dd3473cea18a6",
         "type": "tabs",
         "children": [
           {
-            "id": "5f6f0fabfb786b00",
+            "id": "6b4aa733655fa3e1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1.ROUGH/Day Log.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Day Log"
+              "title": "New tab"
             }
           }
         ]
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.50271224975586
+    "width": 249.5
   },
   "right": {
     "id": "91a443b46ed0c6d9",
@@ -168,25 +164,30 @@
       "bases:Create new base": false
     }
   },
-  "active": "5f6f0fabfb786b00",
+  "active": "6b4aa733655fa3e1",
   "lastOpenFiles": [
+    "Strings/1Strings.md",
+    "Strings/14. Longest Common Prefix.md",
+    "Strings/KMP String Matching.md",
+    "RANDOM QUESTIONS/STRING/1392. Longest Happy Prefix.md",
+    "REVISION.md",
+    "Strings/8. String to Integer (atoi).md",
+    "Strings/5. Longest Palindromic Substring.md",
+    "RANDOM QUESTIONS/STRING",
+    "RANDOM QUESTIONS",
+    "Strings/Z ALGORITHM.md",
     "Strings/Z-Function.md",
     "1.ROUGH/Day Log.md",
     "Strings/242. Valid Anagram.md",
     "1.ROUGH/FOCUS.md",
     "Recursion & BackTracking/N-Queens.md",
-    "REVISION.md",
     "1.ROUGH/Ashtavakra Gita Sandeep Maheshwari.md",
     "1.ROUGH/21 DAYS.md",
     "1.ROUGH/Day Work DWAR.md",
     "1.ROUGH/Things To Be Done.md",
-    "Strings/1Strings.md",
     "Strings/151. Reverse Words in a String.md",
     "Recursion & BackTracking/139. Word Break.md",
-    "Strings/5. Longest Palindromic Substring.md",
-    "Strings/8. String to Integer (atoi).md",
     "Strings/13. Roman to Integer.md",
-    "Strings/14. Longest Common Prefix.md",
     "Recursion/46. Permutations.md",
     "2.LEARNINGS/JIM ROHN.md",
     "Recursion/Palindromic Substrings.md",
@@ -194,9 +195,6 @@
     "Stack/1Stack.md",
     "Stack/20. Valid Parentheses.md",
     "Binary Search/1.BinarySearchQestions.md",
-    "Binary Search/Allocate Minimum Pages.md",
-    "LinkedList/1.LinkedList.md",
-    "LinkedList/876. Middle of the Linked List.md",
     "REVISION",
     "Binary Search",
     "LinkedList",
@@ -204,8 +202,6 @@
     "Untitled.base",
     "2.LEARNINGS",
     "Untitled.canvas",
-    "Recursion & BackTracking",
-    "Array",
-    "Recursion"
+    "Recursion & BackTracking"
   ]
 }
