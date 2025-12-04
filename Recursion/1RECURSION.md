@@ -7,3 +7,4 @@
 7. [[Palindromic Substrings]]
 8. [[46. Permutations]]
 9. [[Permutation Sequence]]
+10. [[LONGEST COMMON SUBSEQUENCE]]

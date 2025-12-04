@@ -7,3 +7,5 @@
 7. [[Z ALGORITHM]]
 8. [[242. Valid Anagram]]
 9. [[KMP String Matching]]
+10. [[38. Count and Say]]
+11. [[165 Compare Version Numbers]]
