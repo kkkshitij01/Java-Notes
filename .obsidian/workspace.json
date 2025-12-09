@@ -11,10 +11,14 @@
             "id": "f73ebc1400259ee3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "1.ROUGH/FOCUS.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "FOCUS"
             }
           }
         ]
@@ -166,13 +170,15 @@
   },
   "active": "f73ebc1400259ee3",
   "lastOpenFiles": [
+    "Greedy Algorithm/Job Sequencing Problem.md",
+    "Greedy Algorithm/N Meetings in a Room.md",
+    "Array/85. Maximal Rectangle.md",
+    "Array/42. Trapping Rain Water.md",
     "Tree/Pre, Post, Inorder in one traversal.md",
     "Tree/Top View of  Binary tree.md",
     "Tree/Bottom view of binary tree.md",
     "Tree/Binary Tree Zigzag Level Order Traversal.md",
     "Tree/1.TREE.md",
-    "Array/85. Maximal Rectangle.md",
-    "Array/42. Trapping Rain Water.md",
     "Tree/Binary Tree Right Side View.md",
     "Tree/Level Order Traversal (BFS).md",
     "Tree/Morris  Inorder Traversal.md",
@@ -192,8 +198,6 @@
     "Recursion/Permutation Sequence.md",
     "Strings/5. Longest Palindromic Substring.md",
     "Strings/38. Count and Say.md",
-    "Strings/14. Longest Common Prefix.md",
-    "Strings/KMP String Matching.md",
     "RANDOM QUESTIONS/STRING",
     "RANDOM QUESTIONS",
     "Strings",

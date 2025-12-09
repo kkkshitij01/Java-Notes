@@ -8,84 +8,102 @@
 
 **Explanation:** See the figure for a better understanding.
 
+---
 
 # Approach: 
 
-- Here we want max number of meetings that can be done in single meeting room one at  a time .
-- First we create a new 2d array to store {index , start time , end time}
+### **1. Create a 2D array to store activity info**
+
+Each row stores:
+
+- `arr[i][0]` → original index
+    
+- `arr[i][1]` → start time
+    
+- `arr[i][2]` → end time
+    
+
+This helps pair each activity’s start and end times together.
+
+---
+
+### **2. Sort all activities by end time**
+
+`Arrays.sort(arr, (a, b) -> a[2] - b[2]);`
+
+Sorting by earlier end times ensures we always choose the activity that finishes the soonest →  
+leaves maximum space for future activities.
+
+---
+
+### **3. Greedy selection of activities**
+
+- Initialize `count = 0`
+    
+- Set `prevEnd = Integer.MIN_VALUE` (so the first activity is always considered)
+    
+
+Loop over all activities:
+
+#### **Condition to select an activity**
+
+`if (prevEnd < arr[i][1])`
+
+Meaning:
+
+- The previous selected activity ends **before** the next activity starts.
+    
+- So there is **no overlap** → We can select it.
+    
+
+#### **If selected**
+
+- Update `prevEnd = arr[i][2]`
+    
+- Increase `count++`
+    
+
+---
+
+### **4. Print the final count**
+
+`count` = maximum number of non-overlapping activities.
+
+
 ```java
-    int arr[][] = new int[start.length][3];
+public static void solve(int start[], int end[]) {
 
-        for (int i = 0; i < start.length; i++) {
+    // Create a 2D array to store:
+    // [0] → original index
+    // [1] → start time
+    // [2] → end time
+    int arr[][] = new int[start.length][3];
 
-            arr[i][0] = i;          // index 
+    for (int i = 0; i < start.length; i++) {
+        arr[i][0] = i;
+        arr[i][1] = start[i];
+        arr[i][2] = end[i];
+    }
 
-            arr[i][1] = start[i];   // start time 
+    // Sort activities based on their end times (increasing order)
+    Arrays.sort(arr, (a, b) -> (a[2] - b[2]));
 
-            arr[i][2] = end[i];     // end time 
+    int count = 0;
+    int prevEnd = Integer.MIN_VALUE; // keeps track of the last selected activity's end time
 
-        }
-```
+    // Greedily pick activities
+    for (int i = 0; i < arr.length; i++) {
+
+        // If current activity starts after the previous selected one ended → select it
+        if (prevEnd < arr[i][1]) {
+            prevEnd = arr[i][2]; // update end time to current activity's end
+            count++;             // increase selected activity count
+        }
+    }
+
+    // Final result: maximum number of non-overlapping activities
+    System.out.println(count);
+}
 
 
-- then we sort the meetings in increasing order based on there end time ( the one which ends first comes earlier )
- ```java
-  Arrays.sort(arr, (a, b) -> Integer.compare(a[2] , b[2]));  // sorting using comparators 
-  ```
-
-
-- now we initialize count and prevEnd 
-  ```java 
-  int count = 0;
-  int prevEnd = Integer.MIN_VALUE;
-
-        for (int i = 0; i < arr.length; i++) {
-
-            if (prevEnd < arr[i][1]) { // if end time of previous meeting ends before the start time of next meeting 
-                prevEnd = arr[i][2]; // updating the prevEnd with end time of current meeting 
-                count++;
-
-            }
-
-        }
-  ```
-
-# Code : 
-```java  
-
-    public static void solve(int start[], int end[]) {
-
-        int arr[][] = new int[start.length][3];
-
-        for (int i = 0; i < start.length; i++) {
-
-            arr[i][0] = i;
-
-            arr[i][1] = start[i];
-
-            arr[i][2] = end[i];
-
-        }
-
-        Arrays.sort(arr, (a, b) -> (a[2] - b[2]));
-
-        int count = 0;
-
-        int prevEnd = Integer.MIN_VALUE;
-
-        for (int i = 0; i < arr.length; i++) {
-
-            if (prevEnd < arr[i][1]) {
-
-                prevEnd = arr[i][2];
-
-                count++;
-
-            }
-
-        }
-
-        System.out.println(count);
-
-    }
 ```
