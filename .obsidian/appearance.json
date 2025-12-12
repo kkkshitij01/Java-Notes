@@ -1,6 +1,9 @@
 {
-  "interfaceFontFamily": "Comic Sans MS",
-  "baseFontSize": 18,
+  "interfaceFontFamily": "Arial",
+  "baseFontSize": 17,
   "showRibbon": true,
-  "cssTheme": ""
+  "cssTheme": "",
+  "accentColor": "#9b13f6",
+  "textFontFamily": "Arial",
+  "theme": "obsidian"
 }

@@ -2,9 +2,9 @@ Given the `root` of a binary tree, imagine yourself standing on the **right s
 
 **Example 1:**
 
-`**Input:** root = [1,2,3,null,5,null,4]`
+**Input:** root =` [1,2,3,null,5,null,4]`
 
-`**Output:** [1,3,4]`
+**Output:** `[1,3,4]`
 
 **Explanation:**
 
