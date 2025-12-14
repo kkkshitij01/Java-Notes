@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5ba4d3d08501c68f",
+        "id": "0addefba44b95835",
         "type": "tabs",
         "children": [
           {
-            "id": "7b8e484a3f7a312d",
+            "id": "7396cac168e36d45",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CORE SUBJECT/COMPUTER NETWORKS/1.CN.md",
+                "file": "DSA/Tree/Vertical Order Traveral.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.CN"
+              "title": "Vertical Order Traveral"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5
+    "width": 249.5,
+    "collapsed": true
   },
   "right": {
     "id": "91a443b46ed0c6d9",
@@ -168,8 +169,20 @@
       "bases:Create new base": false
     }
   },
-  "active": "7b8e484a3f7a312d",
+  "active": "7396cac168e36d45",
   "lastOpenFiles": [
+    "1.ROUGH/AI TOOLS.md",
+    "DSA/Tree/Vertical Order Traveral.md",
+    "JAVA SYNTAX/COLLECTION FRAME WORK.md",
+    "DSA/RANDOM QUESTIONS/1.Random.md",
+    "DSA/RANDOM QUESTIONS/Array/Next Greater Element I.md",
+    "CORE SUBJECT/COMPUTER NETWORKS/Rate Limiting.md",
+    "DSA/RANDOM QUESTIONS/STRING/Group Anagrams.md",
+    "DSA/Strings/242. Valid Anagram.md",
+    "JAVA SYNTAX/STRING.md",
+    "REVISION.md",
+    "JAVA SYNTAX",
+    "CORE SUBJECT/COMPUTER NETWORKS/1.CN.md",
     "CORE SUBJECT/COMPUTER NETWORKS/Network Address Translation(NAT).md",
     "CORE SUBJECT/COMPUTER NETWORKS/MAC (Media Access Control Address).md",
     "CORE SUBJECT/COMPUTER NETWORKS/IPv4 Vs IPv6.md",
@@ -177,8 +190,6 @@
     "CORE SUBJECT/COMPUTER NETWORKS/Classful IP Addressing.md",
     "CORE SUBJECT/COMPUTER NETWORKS/ARP (Address Resolution Protocol).md",
     "CORE SUBJECT/COMPUTER NETWORKS/VIRTUAL PRIVATE CLOUD (VPC).md",
-    "CORE SUBJECT/COMPUTER NETWORKS/1.CN.md",
-    "REVISION.md",
     "DSA/Tree/Binary Tree Zigzag Level Order Traversal.md",
     "Screenshot 2025-12-12 at 2.47.47 PM.png",
     "Screenshot 2025-12-12 at 2.46.46 PM.png",
@@ -189,25 +200,15 @@
     "DSA/Array/42. Trapping Rain Water.md",
     "DSA/Array/85. Maximal Rectangle.md",
     "DSA/Binary Search/33. Search in Rotated Sorted Array.md",
-    "DSA/Binary Search/4. Median of Two Sorted Arrays.md",
-    "DSA/RANDOM QUESTIONS/Strings/151. Reverse Words in a String.md",
     "DSA",
     "CORE SUBJECT/COMPUTER NETWORKS",
-    "Untitled.md",
     "CORE SUBJECT",
-    "DSA/RANDOM QUESTIONS/Array/Next Greater Element I.md",
-    "DSA/Stack/Stock Span.md",
     "DSA/RANDOM QUESTIONS/Array",
-    "DSA/Greedy Algorithm/N Meetings in a Room.md",
-    "DSA/RANDOM QUESTIONS/Strings/38. Count and Say.md",
-    "1.ROUGH/FOCUS.md",
-    "DSA/Greedy Algorithm/Job Sequencing Problem.md",
     "DSA/Tree",
     "DSA/DP",
     "DSA/RANDOM QUESTIONS/STRING",
     "DSA/RANDOM QUESTIONS",
-    "DSA/RANDOM QUESTIONS/Strings",
-    "REVISION",
+    "DSA/Strings",
     "Untitled.canvas"
   ]
 }
