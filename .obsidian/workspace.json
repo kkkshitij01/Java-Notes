@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "0addefba44b95835",
+        "id": "5a8397e9f7962e6a",
         "type": "tabs",
         "children": [
           {
-            "id": "7396cac168e36d45",
+            "id": "a450aade6ce23e4b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DSA/Tree/Vertical Order Traveral.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Vertical Order Traveral"
+              "title": "New tab"
             }
           }
         ]
@@ -78,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5,
-    "collapsed": true
+    "width": 249.5
   },
   "right": {
     "id": "91a443b46ed0c6d9",
@@ -169,12 +164,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "7396cac168e36d45",
+  "active": "a450aade6ce23e4b",
   "lastOpenFiles": [
-    "1.ROUGH/AI TOOLS.md",
-    "DSA/Tree/Vertical Order Traveral.md",
-    "JAVA SYNTAX/COLLECTION FRAME WORK.md",
+    "DSA/Tree/1.TREE.md",
+    "DSA/Tree/Root to leaf path.md",
+    "DSA/Tree/Pre, Post, Inorder in one traversal.md",
     "DSA/RANDOM QUESTIONS/1.Random.md",
+    "DSA/Tree/Vertical Order Traveral.md",
+    "1.ROUGH/AI TOOLS.md",
+    "JAVA SYNTAX/COLLECTION FRAME WORK.md",
     "DSA/RANDOM QUESTIONS/Array/Next Greater Element I.md",
     "CORE SUBJECT/COMPUTER NETWORKS/Rate Limiting.md",
     "DSA/RANDOM QUESTIONS/STRING/Group Anagrams.md",
@@ -195,11 +193,8 @@
     "Screenshot 2025-12-12 at 2.46.46 PM.png",
     "DSA/Tree/Binary Tree Right Side View.md",
     "DSA/Tree/Morris  Inorder Traversal.md",
-    "DSA/Tree/Pre, Post, Inorder in one traversal.md",
     "DSA/Tree/Level Order Traversal (BFS).md",
     "DSA/Array/42. Trapping Rain Water.md",
-    "DSA/Array/85. Maximal Rectangle.md",
-    "DSA/Binary Search/33. Search in Rotated Sorted Array.md",
     "DSA",
     "CORE SUBJECT/COMPUTER NETWORKS",
     "CORE SUBJECT",
