@@ -11,14 +11,10 @@
             "id": "a450aade6ce23e4b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CORE SUBJECT/Oops/oops.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "oops"
+              "title": "New tab"
             }
           }
         ]
@@ -170,8 +166,8 @@
   },
   "active": "a450aade6ce23e4b",
   "lastOpenFiles": [
-    "OOPS Concepts in Java PDF Download.pdf",
     "CORE SUBJECT/Oops/oops.md",
+    "OOPS Concepts in Java PDF Download.pdf",
     "CORE SUBJECT/Oops",
     "DSA/Tree/1.TREE.md",
     "DSA/Tree/Root to leaf path.md",
@@ -207,7 +203,6 @@
     "DSA/Tree",
     "DSA/DP",
     "DSA/RANDOM QUESTIONS/STRING",
-    "DSA/RANDOM QUESTIONS",
     "Untitled.canvas"
   ]
 }
