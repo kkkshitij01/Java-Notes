@@ -11,10 +11,14 @@
             "id": "a450aade6ce23e4b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "CORE SUBJECT/Oops/oops.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "oops"
             }
           }
         ]
@@ -166,6 +170,9 @@
   },
   "active": "a450aade6ce23e4b",
   "lastOpenFiles": [
+    "OOPS Concepts in Java PDF Download.pdf",
+    "CORE SUBJECT/Oops/oops.md",
+    "CORE SUBJECT/Oops",
     "DSA/Tree/1.TREE.md",
     "DSA/Tree/Root to leaf path.md",
     "DSA/Tree/Pre, Post, Inorder in one traversal.md",
@@ -193,8 +200,6 @@
     "Screenshot 2025-12-12 at 2.46.46 PM.png",
     "DSA/Tree/Binary Tree Right Side View.md",
     "DSA/Tree/Morris  Inorder Traversal.md",
-    "DSA/Tree/Level Order Traversal (BFS).md",
-    "DSA/Array/42. Trapping Rain Water.md",
     "DSA",
     "CORE SUBJECT/COMPUTER NETWORKS",
     "CORE SUBJECT",
@@ -203,7 +208,6 @@
     "DSA/DP",
     "DSA/RANDOM QUESTIONS/STRING",
     "DSA/RANDOM QUESTIONS",
-    "DSA/Strings",
     "Untitled.canvas"
   ]
 }
