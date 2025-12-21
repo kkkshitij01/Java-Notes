@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5a8397e9f7962e6a",
+        "id": "883dffba19fb6734",
         "type": "tabs",
         "children": [
           {
-            "id": "a450aade6ce23e4b",
+            "id": "f1d93cfbbb93fabf",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -164,13 +164,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "a450aade6ce23e4b",
+  "active": "f1d93cfbbb93fabf",
   "lastOpenFiles": [
+    "DSA/Tree/Construct Binary Search Tree from Preorder Traversal.md",
+    "DSA/Tree/1.TREE.md",
     "OOPS Notes.pdf",
+    "DSA/Tree/is Validate Binary Search Tree.md",
     "CORE SUBJECT/Oops/oops.md",
     "OOPS Concepts in Java PDF Download.pdf",
     "CORE SUBJECT/Oops",
-    "DSA/Tree/1.TREE.md",
     "DSA/Tree/Root to leaf path.md",
     "DSA/Tree/Pre, Post, Inorder in one traversal.md",
     "DSA/RANDOM QUESTIONS/1.Random.md",
@@ -195,15 +197,12 @@
     "DSA/Tree/Binary Tree Zigzag Level Order Traversal.md",
     "Screenshot 2025-12-12 at 2.47.47 PM.png",
     "Screenshot 2025-12-12 at 2.46.46 PM.png",
-    "DSA/Tree/Binary Tree Right Side View.md",
-    "DSA/Tree/Morris  Inorder Traversal.md",
     "DSA",
     "CORE SUBJECT/COMPUTER NETWORKS",
     "CORE SUBJECT",
     "DSA/RANDOM QUESTIONS/Array",
     "DSA/Tree",
     "DSA/DP",
-    "DSA/RANDOM QUESTIONS/STRING",
     "Untitled.canvas"
   ]
 }
