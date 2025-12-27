@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "883dffba19fb6734",
+        "id": "cfc0fb26b9712f65",
         "type": "tabs",
         "children": [
           {
-            "id": "f1d93cfbbb93fabf",
+            "id": "ce77e44c953f033d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DSA/Array/Merge Without Extra Space.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Merge Without Extra Space"
             }
           }
         ]
@@ -70,11 +74,13 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 249.5
+    "width": 249.5,
+    "collapsed": true
   },
   "right": {
     "id": "91a443b46ed0c6d9",
@@ -164,12 +170,24 @@
       "bases:Create new base": false
     }
   },
-  "active": "f1d93cfbbb93fabf",
+  "active": "ce77e44c953f033d",
   "lastOpenFiles": [
-    "DSA/Tree/Construct Binary Search Tree from Preorder Traversal.md",
+    "CORE SUBJECT/COMPUTER NETWORKS/ARP (Address Resolution Protocol).md",
+    "DSA/Tree/Calculate the Diameter of a Binary Tree.md",
+    "DSA/Tree/Balanced Binary Tree.md",
     "DSA/Tree/1.TREE.md",
-    "OOPS Notes.pdf",
+    "DSA/Tree/SAME TREE.md",
+    "DSA/RANDOM QUESTIONS/Array/REMOVE ELEMENT.md",
+    "DSA/Array/Merge Without Extra Space.md",
+    "DSA/RANDOM QUESTIONS/Array/Next Greater Element I.md",
+    "DSA/Array/1Array.md",
+    "DSA/Array/Merge Sorted Array.md",
+    "DSA/Array/Remove duplicates from sorted array.md",
+    "DSA/Tree/Height of binary tree.md",
     "DSA/Tree/is Validate Binary Search Tree.md",
+    "Untitled.md",
+    "DSA/Tree/Construct Binary Search Tree from Preorder Traversal.md",
+    "OOPS Notes.pdf",
     "CORE SUBJECT/Oops/oops.md",
     "OOPS Concepts in Java PDF Download.pdf",
     "CORE SUBJECT/Oops",
@@ -179,22 +197,11 @@
     "DSA/Tree/Vertical Order Traveral.md",
     "1.ROUGH/AI TOOLS.md",
     "JAVA SYNTAX/COLLECTION FRAME WORK.md",
-    "DSA/RANDOM QUESTIONS/Array/Next Greater Element I.md",
     "CORE SUBJECT/COMPUTER NETWORKS/Rate Limiting.md",
     "DSA/RANDOM QUESTIONS/STRING/Group Anagrams.md",
     "DSA/Strings/242. Valid Anagram.md",
     "JAVA SYNTAX/STRING.md",
-    "REVISION.md",
     "JAVA SYNTAX",
-    "CORE SUBJECT/COMPUTER NETWORKS/1.CN.md",
-    "CORE SUBJECT/COMPUTER NETWORKS/Network Address Translation(NAT).md",
-    "CORE SUBJECT/COMPUTER NETWORKS/MAC (Media Access Control Address).md",
-    "CORE SUBJECT/COMPUTER NETWORKS/IPv4 Vs IPv6.md",
-    "CORE SUBJECT/COMPUTER NETWORKS/Classless Inter-Domain Routing.md",
-    "CORE SUBJECT/COMPUTER NETWORKS/Classful IP Addressing.md",
-    "CORE SUBJECT/COMPUTER NETWORKS/ARP (Address Resolution Protocol).md",
-    "CORE SUBJECT/COMPUTER NETWORKS/VIRTUAL PRIVATE CLOUD (VPC).md",
-    "DSA/Tree/Binary Tree Zigzag Level Order Traversal.md",
     "Screenshot 2025-12-12 at 2.47.47 PM.png",
     "Screenshot 2025-12-12 at 2.46.46 PM.png",
     "DSA",

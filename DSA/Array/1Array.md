@@ -2,3 +2,6 @@
 2. [[42. Trapping Rain Water]]
 3. [[85. Maximal Rectangle]] 
 4. [[Two Sum]]
+5. [[Remove duplicates from sorted array]]
+6. [[Merge Sorted Array]]
+7. [[Merge Without Extra Space]]
