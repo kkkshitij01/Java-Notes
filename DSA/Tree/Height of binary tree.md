@@ -18,6 +18,10 @@ A binary tree's **maximum depth** is the number of nodes along the longest pat
 
 ---
 ---
+
+### Questions with same logic : 
+1. [[Balanced Binary Tree]]
+2. [[Calculate the Diameter of a Binary Tree]]
 # Optimal : 
 ## **Part 1: Base Condition**
 
