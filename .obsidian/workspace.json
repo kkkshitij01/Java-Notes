@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "aba1572f4e87de1c",
+        "id": "02e14bf35333d0a1",
         "type": "tabs",
         "children": [
           {
-            "id": "40fc8f4b3ae2a8b4",
+            "id": "2379a57bf7b68165",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -164,8 +164,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "40fc8f4b3ae2a8b4",
+  "active": "2379a57bf7b68165",
   "lastOpenFiles": [
+    "2026/1st Jan 2026.md",
+    "Screenshot 2026-01-01 at 11.36.29 PM.png",
+    "1.ROUGH/Day Work DWAR.md",
+    "2026",
     "DSA/Tree/Morris  Inorder Traversal.md",
     "REVISION.md",
     "DSA/Tree/Level Order Traversal (BFS).md",
@@ -186,15 +190,12 @@
     "DSA/Array/Merge Sorted Array.md",
     "DSA/Array/Remove duplicates from sorted array.md",
     "DSA/Tree/is Validate Binary Search Tree.md",
-    "Untitled.md",
     "DSA/Tree/Construct Binary Search Tree from Preorder Traversal.md",
     "OOPS Notes.pdf",
     "CORE SUBJECT/Oops/oops.md",
     "OOPS Concepts in Java PDF Download.pdf",
     "CORE SUBJECT/Oops",
     "DSA/Tree/Root to leaf path.md",
-    "DSA/Tree/Pre, Post, Inorder in one traversal.md",
-    "DSA/RANDOM QUESTIONS/1.Random.md",
     "JAVA SYNTAX",
     "Screenshot 2025-12-12 at 2.47.47 PM.png",
     "Screenshot 2025-12-12 at 2.46.46 PM.png",
@@ -203,7 +204,6 @@
     "CORE SUBJECT",
     "DSA/RANDOM QUESTIONS/Array",
     "DSA/Tree",
-    "DSA/DP",
     "Untitled.canvas"
   ]
 }
