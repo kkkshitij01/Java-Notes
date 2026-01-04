@@ -2,3 +2,4 @@
  2. [[Median in a row-wise sorted Matrix]]
  3. [[84. Largest Rectangle in Histogram]]
  4. [[Vertical Order Traveral]]
+ 5. [[Maximum Width of Binary Tree]]

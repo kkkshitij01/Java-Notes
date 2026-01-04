@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "02e14bf35333d0a1",
+        "id": "447c933847ee79a9",
         "type": "tabs",
         "children": [
           {
-            "id": "2379a57bf7b68165",
+            "id": "dd3e8db6e3af91d2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DSA/Tree/Binary Tree Maximum Path Sum.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Binary Tree Maximum Path Sum"
             }
           }
         ]
@@ -164,21 +168,28 @@
       "bases:Create new base": false
     }
   },
-  "active": "2379a57bf7b68165",
+  "active": "dd3e8db6e3af91d2",
   "lastOpenFiles": [
+    "DSA/Tree/1.TREE.md",
+    "DSA/Tree/Binary Tree Maximum Path Sum.md",
+    "DSA/Tree/Floor in BST.md",
+    "DSA/Tree/Root to leaf path.md",
+    "REVISION.md",
+    "DSA/Tree/Maximum Width of Binary Tree.md",
+    "DSA/Tree/Tree Boundary Traversal.md",
+    "DSA/Tree/Binary Tree Right Side View.md",
+    "2026/1 Jan.md",
     "2026/1st Jan 2026.md",
     "Screenshot 2026-01-01 at 11.36.29 PM.png",
     "1.ROUGH/Day Work DWAR.md",
     "2026",
     "DSA/Tree/Morris  Inorder Traversal.md",
-    "REVISION.md",
     "DSA/Tree/Level Order Traversal (BFS).md",
     "DSA/Tree/Vertical Order Traveral.md",
     "DSA/Tree/Binary Tree Zigzag Level Order Traversal.md",
     "DSA/Tree/Height of binary tree.md",
     "DSA/Array/3Sum Zero.md",
     "DSA/Tree/Lowest Common Ancestor (LCA).md",
-    "DSA/Tree/1.TREE.md",
     "DSA/Array/Merge Without Extra Space.md",
     "CORE SUBJECT/COMPUTER NETWORKS/ARP (Address Resolution Protocol).md",
     "DSA/Tree/Calculate the Diameter of a Binary Tree.md",
@@ -187,15 +198,9 @@
     "DSA/RANDOM QUESTIONS/Array/REMOVE ELEMENT.md",
     "DSA/RANDOM QUESTIONS/Array/Next Greater Element I.md",
     "DSA/Array/1Array.md",
-    "DSA/Array/Merge Sorted Array.md",
-    "DSA/Array/Remove duplicates from sorted array.md",
-    "DSA/Tree/is Validate Binary Search Tree.md",
-    "DSA/Tree/Construct Binary Search Tree from Preorder Traversal.md",
     "OOPS Notes.pdf",
-    "CORE SUBJECT/Oops/oops.md",
     "OOPS Concepts in Java PDF Download.pdf",
     "CORE SUBJECT/Oops",
-    "DSA/Tree/Root to leaf path.md",
     "JAVA SYNTAX",
     "Screenshot 2025-12-12 at 2.47.47 PM.png",
     "Screenshot 2025-12-12 at 2.46.46 PM.png",
