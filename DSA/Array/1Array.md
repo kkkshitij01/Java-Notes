@@ -5,3 +5,4 @@
 5. [[Remove duplicates from sorted array]]
 6. [[Merge Sorted Array]]
 7. [[Merge Without Extra Space]]
+8. [[Largest Rectangle in Histogram]]

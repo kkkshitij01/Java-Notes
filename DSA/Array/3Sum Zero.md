@@ -5,7 +5,9 @@ Notice that the solution set must not contain duplicate triplets.
 **Example 1:**
 
 **Input:** nums = `[-1,0,1,2,-1,-4]`
+
 **Output:**` [[-1,-1,2],[-1,0,1]]`
+
 **Explanation:** 
 nums`[0] + nums[1] + nums[2] = (-1) + 0 + 1 = 0.`
 nums`[1] + nums[2] + nums[4] = 0 + 1 + (-1) = 0.
@@ -123,4 +125,47 @@ class Solution {
     }
 }
 
+```
+
+# Brute Force 
+```java
+class Solution {
+
+    public List<List<Integer>> threeSum(int[] nums) {
+
+        List<List<Integer>> ans = new ArrayList<>();
+
+        Set<List<Integer>> set = new HashSet<>();
+
+        Arrays.sort(nums);
+
+        int len = nums.length;
+
+        for(int i = 0; i< len-2 ; i++){
+
+            for(int j = i+1 ; j< len ; j++){
+
+                for(int k = j+1; k< len; k++){
+
+                 if(nums[i]+nums[j]+ nums[k] == 0){
+
+                    List<Integer> temp = Arrays.asList(nums[i], nums[j], nums[k]);
+
+                    set.add(temp);
+
+                 }   
+
+                }
+
+            }
+
+        }
+
+        ans.addAll(set);
+
+        return ans;
+
+    }
+
+}
 ```

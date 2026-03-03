@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "447c933847ee79a9",
+        "id": "a7e2eb3021cf62fd",
         "type": "tabs",
         "children": [
           {
-            "id": "dd3e8db6e3af91d2",
+            "id": "2fa7552563e2eccd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DSA/Tree/Binary Tree Maximum Path Sum.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Binary Tree Maximum Path Sum"
+              "title": "New tab"
             }
           }
         ]
@@ -168,18 +164,29 @@
       "bases:Create new base": false
     }
   },
-  "active": "dd3e8db6e3af91d2",
+  "active": "2fa7552563e2eccd",
   "lastOpenFiles": [
-    "DSA/Tree/1.TREE.md",
+    "DSA/DP/0-1 Knapsack.md",
+    "DSA/DP/1. DP.md",
+    "DSA/Array/85. Maximal Rectangle.md",
+    "DSA/DP/LCS.md",
+    "DSA/Array/Two Sum.md",
+    "2026/1st Jan 2026.md",
+    "2026/1 Jan.md",
+    "OOPS Notes.pdf",
+    "DSA/Array/Largest Rectangle in Histogram.md",
+    "DSA/Array/1Array.md",
+    "DSA/Array/42. Trapping Rain Water.md",
+    "DSA/Array/3Sum Zero.md",
+    "Untitled.canvas",
     "DSA/Tree/Binary Tree Maximum Path Sum.md",
+    "DSA/Tree/1.TREE.md",
     "DSA/Tree/Floor in BST.md",
     "DSA/Tree/Root to leaf path.md",
     "REVISION.md",
     "DSA/Tree/Maximum Width of Binary Tree.md",
     "DSA/Tree/Tree Boundary Traversal.md",
     "DSA/Tree/Binary Tree Right Side View.md",
-    "2026/1 Jan.md",
-    "2026/1st Jan 2026.md",
     "Screenshot 2026-01-01 at 11.36.29 PM.png",
     "1.ROUGH/Day Work DWAR.md",
     "2026",
@@ -188,17 +195,7 @@
     "DSA/Tree/Vertical Order Traveral.md",
     "DSA/Tree/Binary Tree Zigzag Level Order Traversal.md",
     "DSA/Tree/Height of binary tree.md",
-    "DSA/Array/3Sum Zero.md",
     "DSA/Tree/Lowest Common Ancestor (LCA).md",
-    "DSA/Array/Merge Without Extra Space.md",
-    "CORE SUBJECT/COMPUTER NETWORKS/ARP (Address Resolution Protocol).md",
-    "DSA/Tree/Calculate the Diameter of a Binary Tree.md",
-    "DSA/Tree/Balanced Binary Tree.md",
-    "DSA/Tree/SAME TREE.md",
-    "DSA/RANDOM QUESTIONS/Array/REMOVE ELEMENT.md",
-    "DSA/RANDOM QUESTIONS/Array/Next Greater Element I.md",
-    "DSA/Array/1Array.md",
-    "OOPS Notes.pdf",
     "OOPS Concepts in Java PDF Download.pdf",
     "CORE SUBJECT/Oops",
     "JAVA SYNTAX",
@@ -208,7 +205,6 @@
     "CORE SUBJECT/COMPUTER NETWORKS",
     "CORE SUBJECT",
     "DSA/RANDOM QUESTIONS/Array",
-    "DSA/Tree",
-    "Untitled.canvas"
+    "DSA/Tree"
   ]
 }
