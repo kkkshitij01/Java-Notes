@@ -1,5 +1,5 @@
 1. [[PRINT ALL SUBSET]]
-2. [[SubSet Sum]]
+2. [[DSA/Recursion/SubSet Sum]]
 3. [[SUBSET II]]
 4. [[Combination Sum]]
 5. [[Combination Sum II]]

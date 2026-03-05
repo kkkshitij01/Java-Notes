@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a7e2eb3021cf62fd",
+        "id": "2292542979317b70",
         "type": "tabs",
         "children": [
           {
-            "id": "2fa7552563e2eccd",
+            "id": "98c91ae688e8f7ee",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -164,12 +164,18 @@
       "bases:Create new base": false
     }
   },
-  "active": "2fa7552563e2eccd",
+  "active": "98c91ae688e8f7ee",
   "lastOpenFiles": [
-    "DSA/DP/0-1 Knapsack.md",
     "DSA/DP/1. DP.md",
-    "DSA/Array/85. Maximal Rectangle.md",
+    "DSA/DP/Partition Equal Subset Sum.md",
+    "DSA/Tree/Bottom view of binary tree.md",
+    "DSA/DP/Subset sum equal to target.md",
+    "DSA/Recursion/SubSet Sum.md",
+    "DSA/DP/0-1 Knapsack.md",
     "DSA/DP/LCS.md",
+    "DSA/Recursion/PRINT ALL SUBSET.md",
+    "DSA/DP/Subset Sum.md",
+    "DSA/Array/85. Maximal Rectangle.md",
     "DSA/Array/Two Sum.md",
     "2026/1st Jan 2026.md",
     "2026/1 Jan.md",
@@ -190,12 +196,6 @@
     "Screenshot 2026-01-01 at 11.36.29 PM.png",
     "1.ROUGH/Day Work DWAR.md",
     "2026",
-    "DSA/Tree/Morris  Inorder Traversal.md",
-    "DSA/Tree/Level Order Traversal (BFS).md",
-    "DSA/Tree/Vertical Order Traveral.md",
-    "DSA/Tree/Binary Tree Zigzag Level Order Traversal.md",
-    "DSA/Tree/Height of binary tree.md",
-    "DSA/Tree/Lowest Common Ancestor (LCA).md",
     "OOPS Concepts in Java PDF Download.pdf",
     "CORE SUBJECT/Oops",
     "JAVA SYNTAX",

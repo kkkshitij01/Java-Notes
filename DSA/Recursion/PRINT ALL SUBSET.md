@@ -14,7 +14,7 @@ The solution set **must not** contain duplicate subsets. Return the solution i
 
 ---
 
-# Approach : SAME AS [[SubSet Sum]]
+# Approach : SAME AS [[DSA/Recursion/SubSet Sum]]
 
 • We have an input array `nums[]`.  
 • Create `List<List<Integer>> list` to store all subsets.  

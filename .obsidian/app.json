@@ -2,5 +2,6 @@
   "readableLineLength": false,
   "strictLineBreaks": true,
   "showLineNumber": false,
-  "defaultViewMode": "preview"
+  "defaultViewMode": "preview",
+  "alwaysUpdateLinks": true
 }
