@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "82f5ade829c053c7",
+        "id": "af60bf9d962aa5ce",
         "type": "tabs",
         "children": [
           {
-            "id": "15a0eecf51637664",
+            "id": "ce5217b75bbf2b10",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DSA/Tree/Construct Binary Tree from Preorder and Inorder Traversal.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Construct Binary Tree from Preorder and Inorder Traversal"
+              "title": "New tab"
             }
           }
         ]
@@ -168,11 +164,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "15a0eecf51637664",
+  "active": "ce5217b75bbf2b10",
   "lastOpenFiles": [
-    "DSA/Tree/Construct Binary Search Tree from Preorder Traversal.md",
-    "DSA/Tree/Construct Binary Tree from Preorder and Inorder Traversal.md",
     "DSA/Tree/1.TREE.md",
+    "DSA/Tree/Symmetric Tree.md",
+    "DSA/Tree/Construct Binary Tree from Preorder and Inorder Traversal.md",
+    "DSA/Tree/Construct Binary Search Tree from Preorder Traversal.md",
     "DSA/Tree/Flatten Binary Tree to Linked List.md",
     "DSA/Tree/Binary Tree Maximum Path Sum.md",
     "DSA/Tree/Invert Binary Tree.md",
@@ -195,7 +192,6 @@
     "DSA/DP/Subset Sum.md",
     "DSA/Array/85. Maximal Rectangle.md",
     "DSA/Array/Two Sum.md",
-    "2026/1st Jan 2026.md",
     "OOPS Notes.pdf",
     "Untitled.canvas",
     "Screenshot 2026-01-01 at 11.36.29 PM.png",
