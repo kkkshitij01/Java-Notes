@@ -286,3 +286,49 @@ dp`[index][W]`
 | **Time**            | `O(n × W)` |
 | **Space**           | `O(n × W)` |
 | **Recursion Stack** | `O(n)`     |
+
+---
+---
+
+
+# Tabulation Method
+
+```java
+class Solution {
+
+    static Boolean isSubsetSum(int arr[], int sum) {
+
+        // dp[i][j] = can we form sum j using first i elements
+        boolean dp[][] = new boolean[arr.length+1][sum+1];
+
+        // sum 0 is always possible (take no elements)
+        for(int i = 0 ; i< arr.length+1 ; i++){
+            dp[i][0] = true;
+        }
+
+        // fill dp table
+        for(int i = 1; i< arr.length+1 ; i++){
+
+            // try to form all sums from 1 to target
+            for(int j = 1 ; j< sum+1 ;j++){
+
+                // if current element can be included
+                if(j>= arr[i-1]){
+
+                    // two choices:
+                    // include current element OR skip it
+                    dp[i][j] = dp[i-1][j-arr[i-1]] || dp[i-1][j];
+
+                }else{
+
+                    // cannot include current element, so skip it
+                    dp[i][j]= dp[i-1][j];
+                }
+            }
+        }
+
+        // final answer: can we form target sum using all elements
+        return dp[arr.length][sum];
+    }
+}
+```

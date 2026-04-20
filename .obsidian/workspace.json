@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bb33a2bd1c662179",
+        "id": "3b6eb6d9f4a92bb6",
         "type": "tabs",
         "children": [
           {
-            "id": "1ce147708af0d30d",
+            "id": "2d529de22fb9f547",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -164,8 +164,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "1ce147708af0d30d",
+  "active": "2d529de22fb9f547",
   "lastOpenFiles": [
+    "DSA/DP/0-1 Knapsack.md",
+    "Untitled.base",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "OOPS Notes.pdf",
+    "2026-04-18.md",
+    "DSA/DP/Subset sum equal to target.md",
     "DSA/Tree/Count Good Nodes in Binary Tree.md",
     "DSA/Tree/1.TREE.md",
     "DSA/Tree/Serialize and Deserialize Binary Tree.md",
@@ -180,9 +187,7 @@
     "DSA/DP/1. DP.md",
     "DSA/Array/1Array.md",
     "DSA/Array/Sort Colours.md",
-    "DSA/DP/0-1 Knapsack.md",
     "DSA/DP/Count of Subsets Sum.md",
-    "DSA/DP/Subset sum equal to target.md",
     "DSA/DP/Partition Equal Subset Sum.md",
     "DSA/Tree/Maximum Width of Binary Tree.md",
     "DSA/Tree/Level Order Traversal (BFS).md",
@@ -190,10 +195,6 @@
     "DSA/Tree/Bottom view of binary tree.md",
     "DSA/Recursion/SubSet Sum.md",
     "DSA/DP/LCS.md",
-    "DSA/Recursion/PRINT ALL SUBSET.md",
-    "DSA/DP/Subset Sum.md",
-    "OOPS Notes.pdf",
-    "Untitled.canvas",
     "Screenshot 2026-01-01 at 11.36.29 PM.png",
     "2026",
     "OOPS Concepts in Java PDF Download.pdf",
@@ -204,7 +205,6 @@
     "DSA",
     "CORE SUBJECT/COMPUTER NETWORKS",
     "CORE SUBJECT",
-    "DSA/RANDOM QUESTIONS/Array",
-    "DSA/Tree"
+    "DSA/RANDOM QUESTIONS/Array"
   ]
 }

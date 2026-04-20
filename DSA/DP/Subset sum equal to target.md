@@ -129,8 +129,8 @@ Return `false`.
 
 Before computing:
 
-if(dp[idx][cap] != null)  
-    return dp[idx][cap]
+`if(dp[idx][cap] != null)  `
+    return dp`[idx][cap]`
 
 Reuse stored answer.
 
@@ -140,13 +140,13 @@ Reuse stored answer.
 
 If current element fits:
 
-cap >= arr[idx]
+cap >= arr`[idx]`
 
 We try two options:
 
 ### Include element
 
-solve(arr, cap - arr[idx], idx + 1)
+`solve(arr, cap - arr[idx], idx + 1)`
 
 ### Skip element
 
@@ -162,7 +162,7 @@ include OR skip
 
 If:
 
-arr[idx] > cap
+`arr[idx] > cap`
 
 We cannot include it.
 
@@ -190,8 +190,137 @@ With DP:
 
 # **Time & Space Complexity**
 
-|Type|Complexity|
-|---|---|
-|**Time Complexity**|`O(n × sum)`|
-|**Space Complexity**|`O(n × sum)`|
-|**Recursion Stack**|`O(n)`|
+| Type                 | Complexity   |     |
+| -------------------- | ------------ | --- |
+| **Time Complexity**  | `O(n × sum)` |     |
+| **Space Complexity** | `O(n × sum)` |     |
+| **Recursion Stack**  | `O(n)`       |     |
+
+---
+---
+
+# Tabulation 
+
+```java
+class Solution {
+
+    static Boolean isSubsetSum(int arr[], int sum) {
+
+        // dp[i][j] = can we form sum j using first i elements
+        boolean dp[][] = new boolean[arr.length+1][sum+1];
+
+        // sum 0 is always possible (take no elements)
+        for(int i = 0 ; i< arr.length+1 ; i++){
+            dp[i][0] = true;
+        }
+
+        // fill dp table
+        for(int i = 1; i< arr.length+1 ; i++){
+
+            // try to form all sums from 1 to target
+            for(int j = 1 ; j< sum+1 ;j++){
+
+                // if current element can be included
+                if(j>= arr[i-1]){
+
+                    // two choices:
+                    // include current element OR skip it
+                    dp[i][j] = dp[i-1][j-arr[i-1]] || dp[i-1][j];
+
+                }else{
+
+                    // cannot include current element, so skip it
+                    dp[i][j]= dp[i-1][j];
+                }
+            }
+        }
+
+        // final answer: can we form target sum using all elements
+        return dp[arr.length][sum];
+    }
+}
+```
+
+## **1. Define DP State**
+
+dp[i][j]
+
+Meaning:
+
+> Using first `i` elements, can we form sum `j`?
+
+---
+
+## **2. DP Table Size**
+
+rows → n + 1  
+cols → sum + 1
+
+Where:
+
+- `n = arr.length`
+
+---
+
+## **3. Base Initialization**
+
+### Case 1 — Sum = 0
+
+dp[i][0] = true
+
+Reason:
+
+We can always make sum 0 by choosing **no elements**.
+
+---
+
+### Case 2 — No elements
+
+`dp[0][j] = false  (j > 0)`
+
+Reason:
+
+With 0 elements, no positive sum can be formed.
+
+---
+
+## **4. Fill the DP Table**
+
+Loop:
+
+i → 1 to n  
+j → 1 to sum
+
+---
+
+## **5. Transition Logic**
+
+### Case 1 — Element can be included
+
+`if(j >= arr[i-1])`
+`
+Two options:
+
+`include → dp[i-1][j - arr[i-1]]  `
+`skip    → dp[i-1][j]`
+
+So:
+
+`dp[i][j] = dp[i-1][j-arr[i-1]] || dp[i-1][j]`
+
+---
+
+### Case 2 — Element too large
+
+`if(j < arr[i-1])`
+
+Only option:
+
+`dp[i][j] = dp[i-1][j]`
+
+---
+
+## **6. Final Answer**
+
+`dp[n][sum]`
+
