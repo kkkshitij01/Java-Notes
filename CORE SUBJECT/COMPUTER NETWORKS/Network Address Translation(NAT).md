@@ -1,8 +1,4 @@
 
-Here is the structured explanation of **NAT (Network Address Translation)**. This format is designed for you to memorize and reproduce in an exam or interview.
-
----
-
 ### **1. Definition**
 
 **Network Address Translation (NAT)** is a method used by routers to remap one IP address space into another by modifying network address information in the IP header of packets while they are in transit.
