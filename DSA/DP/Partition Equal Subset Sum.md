@@ -104,3 +104,58 @@ class Solution {
     }
 }
 ```
+
+
+# Tabulation Method : 
+
+```java
+class Solution {
+    boolean dp[][];
+
+    public boolean canPartition(int[] nums) {
+
+        // calculate total sum
+        int sum = 0; 
+        for(int num : nums){
+            sum+= num;
+        }
+
+        // if sum is odd, cannot divide into two equal parts
+        if(sum%2!= 0 ) return false;
+
+        // target sum each subset should have
+        int target = sum/2;
+
+        // dp[i][j] = can we form sum j using first i elements
+        dp= new boolean[nums.length+1][target +1];
+
+        // sum 0 is always possible
+        for(int i = 0; i<= nums.length;i++ ){
+            dp[i][0] = true;
+        }
+
+        // fill dp table
+        for(int i = 1; i< nums.length+1;i++){
+
+            // try to form all sums from 1 to target
+            for(int j = 1; j< target+1; j++){
+
+                // if current element can be included
+                if(j>= nums[i-1]){
+
+                    // include OR exclude current element
+                    dp[i][j]= dp[i-1][j-nums[i-1]]|| dp[i-1][j];
+
+                }else{
+
+                    // cannot include, so skip
+                    dp[i][j] = dp[i-1][j];
+                }
+            }
+        }
+
+        // final answer: can we form target sum
+        return dp[nums.length][target];
+    }
+}
+```
