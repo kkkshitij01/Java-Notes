@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0f51aebc4e33f830",
+        "id": "3bcaeeaad3712ad7",
         "type": "tabs",
         "children": [
           {
-            "id": "5c375f6604e2e4a4",
+            "id": "5895d600d10489ad",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -164,11 +164,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "5c375f6604e2e4a4",
+  "active": "5895d600d10489ad",
   "lastOpenFiles": [
-    "DSA/DP/Partition Array Into Two Arrays to Minimize Sum Difference.md",
-    "DSA/DP/1. DP.md",
+    "DSA/DP/Unbounded Knapsack.md",
     "DSA/DP/0-1 Knapsack.md",
+    "DSA/DP/1. DP.md",
+    "DSA/DP/Partitions with Given Difference.md",
+    "DSA/DP/Partition Array Into Two Arrays to Minimize Sum Difference.md",
     "DSA/DP/Minimum sum partition.md",
     "DSA/DP/Count of Subsets Sum.md",
     "DSA/DP/Partition Equal Subset Sum.md",
@@ -195,8 +197,6 @@
     "Untitled.canvas",
     "2026-04-18.md",
     "DSA/Tree/Count Good Nodes in Binary Tree.md",
-    "DSA/Tree/1.TREE.md",
-    "DSA/Tree/Serialize and Deserialize Binary Tree.md",
     "Screenshot 2026-01-01 at 11.36.29 PM.png",
     "2026",
     "OOPS Concepts in Java PDF Download.pdf",

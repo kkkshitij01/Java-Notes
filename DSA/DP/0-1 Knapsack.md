@@ -295,40 +295,38 @@ dp`[index][W]`
 
 ```java
 class Solution {
+    public int knapsack(int W, int val[], int wt[]) {
 
-    static Boolean isSubsetSum(int arr[], int sum) {
-
-        // dp[i][j] = can we form sum j using first i elements
-        boolean dp[][] = new boolean[arr.length+1][sum+1];
-
-        // sum 0 is always possible (take no elements)
-        for(int i = 0 ; i< arr.length+1 ; i++){
-            dp[i][0] = true;
-        }
-
+        // dp[i][j] = maximum value we can get
+        // using first i items with capacity j
+        int dp[][] = new int[val.length+1][W+1];
+    
         // fill dp table
-        for(int i = 1; i< arr.length+1 ; i++){
+        for(int i = 1; i < val.length+1 ; i++){
 
-            // try to form all sums from 1 to target
-            for(int j = 1 ; j< sum+1 ;j++){
+            // try all capacities from 0 to W
+            for(int j = 0; j< W+1; j++){
 
-                // if current element can be included
-                if(j>= arr[i-1]){
+                // if current item can fit in capacity
+                if(j>= wt[i-1]){
 
                     // two choices:
-                    // include current element OR skip it
-                    dp[i][j] = dp[i-1][j-arr[i-1]] || dp[i-1][j];
+                    // 1. skip current item
+                    // 2. take current item and add its value
+                    dp[i][j] = Math.max(dp[i-1][j] ,val[i-1]+dp[i-1][j-wt[i-1]]);
 
                 }else{
 
-                    // cannot include current element, so skip it
-                    dp[i][j]= dp[i-1][j];
+                    // cannot take item, so skip
+                    dp[i][j] = dp[i-1][j];
                 }
             }
         }
 
-        // final answer: can we form target sum using all elements
-        return dp[arr.length][sum];
+        // final answer: max value with all items and full capacity
+        return dp[val.length][W];
+        
     }
 }
+
 ```
