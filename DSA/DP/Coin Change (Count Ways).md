@@ -167,3 +167,48 @@ Here, we stay at `idx` → same coin can be picked again and again.
 
 |Time|`O(n × sum)`|
 |Space|`O(n × sum)` for dp table + recursion stack|
+
+
+
+----
+---
+# Tabulation : 
+``` java 
+class Solution {
+    public int count(int coins[], int sum) {
+
+        // dp[i][j] = number of ways to form sum j using first i coins
+        int dp[][] = new int[coins.length+1][sum+1];
+
+        // there is always 1 way to form sum 0 (take no coins)
+        for(int i = 0; i< coins.length+1;i++){
+            dp[i][0] = 1; 
+        }
+
+        // fill dp table
+        for(int i = 1 ; i< coins.length+1 ; i++){
+
+            // try to form all sums from 1 to target sum
+            for(int j = 1 ; j< sum+1; j++){
+
+                // if current coin can be used
+                if(j >= coins[i-1]){
+
+                    // two choices:
+                    // 1. skip current coin
+                    // 2. take current coin again (unbounded use)
+                    dp[i][j] = dp[i-1][j] + dp[i][j-coins[i-1]];
+
+                }else{
+
+                    // cannot take coin, so skip
+                    dp[i][j] = dp[i-1][j];
+                }
+            }
+        }
+
+        // final answer: number of ways to form target sum
+        return dp[coins.length][sum];
+    }
+}
+```
